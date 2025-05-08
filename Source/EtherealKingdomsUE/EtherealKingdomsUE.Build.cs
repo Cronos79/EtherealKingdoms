@@ -14,7 +14,10 @@ public class EtherealKingdomsUE : ModuleRules
         PublicIncludePaths.Add(SQLitePath);
         PrivateIncludePaths.Add(SQLitePath);
 
-        PublicAdditionalLibraries.Add(Path.Combine(SQLitePath, "sqlite3.c"));
+        PublicAdditionalLibraries.Add(Path.Combine(SQLitePath, "sqlite3.lib"));
+
+        // Optional if DLL is needed at runtime
+        RuntimeDependencies.Add("$(BinaryOutputDir)/sqlite3.dll", Path.Combine(SQLitePath, "sqlite3.dll"));
 
         // Required dependencies for UE modules
         PublicDependencyModuleNames.AddRange(new string[]
@@ -25,5 +28,14 @@ public class EtherealKingdomsUE : ModuleRules
             "InputCore",
             "UMG"
         });
+
+        // Post-build DLL copy
+        if (Target.Platform == UnrealTargetPlatform.Win64)
+        {
+            string DllSource = Path.Combine(SQLitePath, "sqlite3.dll");
+            string DllTarget = Path.Combine("$(BinaryOutputDir)", "sqlite3.dll");
+
+            RuntimeDependencies.Add(DllTarget, DllSource); // ensures it's copied
+        }
     }
 }
