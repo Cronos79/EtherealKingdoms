@@ -19,24 +19,26 @@ Ethereal Kingdoms is a text-driven strategy game inspired by classic browser tit
 
 ## 🧪 Current Status
 
-**Version**: `0.0.1.0`  
-**Stage**: Pre-Alpha Launcher Test Build
+**Version**: `0.0.2.0`  
+**Stage**: Pre-Alpha Core Gameplay Systems
 
-This version focuses on foundational infrastructure for client-server communication, user account handling, and basic UI.
+This version introduces server-synced kingdom resources, persistent kingdom data, and client UI updates reflecting dynamic resource values.
 
 ---
 
 ## 📄 Patch Notes
 
 - [Patch Notes 0.0.1.0](patchnotes-0.0.1.md)
+- [Patch Notes 0.0.2.0](patchnotes-0.0.2.md)
 
 ---
 
 ## 📌 Version History
 
-| Version     | Description                |
-|-------------|----------------------------|
-| 0.0.1.0     | Initial launcher test build|
+| Version     | Description                          |
+|-------------|--------------------------------------|
+| 0.0.1.0     | Initial launcher test build          |
+| 0.0.2.0     | Kingdom resource systems implemented |
 
 ---
 
@@ -45,4 +47,3 @@ This version focuses on foundational infrastructure for client-server communicat
 **Company**: CronoGames  
 **Author**: Matt Brock  
 **Project Homepage**: [Game Design Doc](https://docs.google.com/document/d/1Z3GvnjLt_f4rGW_-50TyT4ODZIs_4pPtQdI1-YTn1vE/edit?usp=sharing)
-
