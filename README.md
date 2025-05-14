@@ -19,10 +19,10 @@ Ethereal Kingdoms is a text-driven strategy game inspired by classic browser tit
 
 ## 🧪 Current Status
 
-**Version**: `0.0.2.0`  
+**Version**: `0.0.3.0`  
 **Stage**: Pre-Alpha Core Gameplay Systems
 
-This version introduces server-synced kingdom resources, persistent kingdom data, and client UI updates reflecting dynamic resource values.
+This version introduces server-synced kingdom buildings, persistent kingdom stats.
 
 ---
 
@@ -30,6 +30,7 @@ This version introduces server-synced kingdom resources, persistent kingdom data
 
 - [Patch Notes 0.0.1.0](patchnotes-0.0.1.md)
 - [Patch Notes 0.0.2.0](patchnotes-0.0.2.md)
+- [Patch Notes 0.0.3.0](patchnotes-0.0.3.md)
 
 ---
 
@@ -39,6 +40,16 @@ This version introduces server-synced kingdom resources, persistent kingdom data
 |-------------|--------------------------------------|
 | 0.0.1.0     | Initial launcher test build          |
 | 0.0.2.0     | Kingdom resource systems implemented |
+| 0.0.3.0	  | Kingdom buildings implemented        |
+
+---
+
+## Roadmap
+
+- More building types and effects
+- Advanced kingdom events and simulation
+- Multiplayer enhancements
+- UI/UX improvements
 
 ---
 
