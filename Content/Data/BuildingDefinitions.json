@@ -1,0 +1,46 @@
+{
+  "House": {
+    "Upgrades": [
+      {
+        "Level": 1,
+        "MaxWorkers": 0,
+        "WorkersNeeded": 0,
+        "Cost": {
+          "Wood": 10,
+          "Stone": 5
+        },
+        "Bonus": {
+          "Housing": 5
+        }
+      },
+      {
+        "Level": 2,
+        "MaxWorkers": 0,
+        "WorkersNeeded": 0,
+        "Cost": {
+          "Wood": 20,
+          "Stone": 10
+        },
+        "Bonus": {
+          "Housing": 10
+        }
+      }
+    ]
+  },
+
+  "Farm": {
+    "Upgrades": [
+      {
+        "Level": 1,
+        "MaxWorkers": 3,
+        "WorkersNeeded": 2,
+        "Cost": {
+          "Wood": 15
+        },
+        "Bonus": {
+          "FoodProduction": 10
+        }
+      }
+    ]
+  }
+}
